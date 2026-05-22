@@ -99,8 +99,8 @@ TRANSITION_LIST("b")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -110,8 +110,8 @@ TRANSITION_LIST("c")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -120,7 +120,8 @@ TRANSITION_LIST("carry")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100.0;
+		LEVEL X FOR 9.0;
+		LEVEL 0 FOR 91.0;
 	}
 }
 
@@ -129,7 +130,8 @@ TRANSITION_LIST("sum")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100.0;
+		LEVEL X FOR 9.0;
+		LEVEL 0 FOR 91.0;
 	}
 }
 

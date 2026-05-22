@@ -1,0 +1,14 @@
+|EXP3
+a => g1.IN0
+a => carry~0.IN0
+a => carry~3.IN0
+b => g1.IN1
+b => carry~0.IN1
+b => carry~1.IN0
+c => g1.IN2
+c => carry~1.IN1
+c => carry~3.IN1
+sum <= g1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
